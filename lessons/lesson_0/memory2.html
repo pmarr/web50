@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Title</title>
+    <style>
+        table{
+            border: solid black 1px;
+            border-collapse: collapse;
+        }
+        tr, th{
+            border: solid black 1px;
+        }
+        #hdr{
+            color: green;
+        }
+        .orangebox{
+            background-color: orange;
+        }
+        .orangebox:hover{
+            background-color: red; 
+}
+    </style>
+    <body>
+        <h1 id="hdr">Header id colored</h1>
+        <div>
+            <button class="orangebox" title="Click for nothing!">Push Me!</button>
+        </div>
+        <div>
+            <input type="checkbox" title="Check me!" placeholder="Checkbox">
+            <input type="text" title="Check me!" placeholder="Checkbox">
+        </div>
+        <div>
+            <input name="Data listings" list="data" placeholder="data">
+            <datalist id="data">
+                <option value="data1"></option>
+                <option value="data2"></option>
+            </datalist>
+        </div>
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Things</th>
+                    <th>Stuff</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Oranges</td>
+                        <td>Cars</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <img src="cat.jpg" alt="cat">
+            <ul>
+                <li>Cats</li>
+                <li>Dogs</li>
+            </ul>
+        </div>
+    </body>
+</html>
